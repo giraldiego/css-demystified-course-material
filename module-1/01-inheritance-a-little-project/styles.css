@@ -4,34 +4,47 @@
     font-family: 'PT Serif', serif;
 */
 
+/* body * {
+  border: 1px solid red ;
+} */
+
 body {
+  margin: 0;  /* reset browser defaults */
   font-family: 'PT Serif', serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;  /* rem > pixels */
+  line-height: 1.6;  /* not given in the guide */
   color: #414141;
-}
-
-header {
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Cinzel', serif;
-  font-weight: 900;
-  font-size: 96px;
 }
 
 a {
   color: #CA5E10;
 }
 
+header {
+  /* background-color: lightyellow; */
+  max-width: 75rem; /* to avoid the text to splash */ 
+  text-align: center;
+  margin: 6rem auto;  /* breathing room for the header */  
+  padding: 0 2rem; /* to not touch edges in smaller screens */ 
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 0.9; /* can be unitless */
+}
+
 .subtitle {
   color: #7D7D7D;
-  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 1.2; /* a middle ground */ 
 }
 
 .lead {
-  font-size: 21px;
+  font-size: 1.3125rem;
 }
 
 .container {
