@@ -13,16 +13,21 @@
   ////////////// */
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+section {
+  padding: 6rem 0;
 }
 
 .section-title {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  margin-top: 3em;
-  margin-bottom: 0;
+  /* margin-top: 3em; */
+  margin: 0;
   color: #00a1ab;
 }
 
@@ -73,7 +78,7 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 14.5em;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
@@ -129,6 +134,10 @@ body {
 /* ///////////////
   Teams
   ////////////// */
+
+.team {
+  background-color: #e5e3e8;
+}
 
 .team-members {
   display: flex;
