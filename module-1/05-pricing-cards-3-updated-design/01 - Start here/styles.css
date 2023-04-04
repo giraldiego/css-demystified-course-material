@@ -42,6 +42,40 @@ section {
   max-width: 1000px;
 }
 
+.bg-light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.bg-light .plan__price {
+  color: #00a1ab;
+}
+
+.bg-light .button {
+  color: white;
+  background: #4e4e4e;
+}
+
+.bg-accent {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.bg-accent .button {
+  background: white;
+  color: #4e4e4e;
+}
+
+.bg-dark {
+  color: #fff;
+  background: #4e4e4e;
+}
+
+.bg-dark .button {
+  background: #00a1ab;
+  color: #fff;
+}
+
 /* ///////////////
   Buttons
   ////////////// */
@@ -84,30 +118,6 @@ section {
   margin: 0 0.5em;
 }
 
-.plan--light {
-  color: #4e4e4e;
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
-}
-
-.plan--light .plan__price {
-  color: #00a1ab;
-}
-
-.plan--light .button {
-  color: white;
-  background: #4e4e4e;
-}
-
-.plan--accent {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
-}
-
-.plan--accent .button {
-  background: white;
-  color: #4e4e4e;
-}
-
 .plan__title {
   text-transform: uppercase;
   margin: 0 0 1em;
@@ -145,7 +155,7 @@ section {
 }
 
 .team-member {
-  background: #abc;
+  /* background: #abc; */
   text-align: left;
   flex: 1 1 45%;
   margin: 1em;
