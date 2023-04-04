@@ -31,6 +31,24 @@ h1 {
   margin: 0 0.5em;
 }
 
+.inverse {
+  color: #4E4E4E;
+  background: linear-gradient(-45deg, #E5E3E8, #FAFAFA);
+  width: 200px;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 0.5em;
+}
+
+.inverse .plan__price {
+  color: #00a1ab;
+}
+
+.inverse .plan__button {
+  background: #4E4E4E;
+  color: white;
+}
+
 .plan__title {
   text-transform: uppercase;
   margin: 0 0 1em;
