@@ -9,8 +9,14 @@
   --clr-dev-300: #e2fcff;
   --clr-dev-400: #024f4f;
 
+  --clr-accent-400: #7e47c5;
+
   --ff-accent: "Podkova", serif;
   --ff-base: "Open Sans", sans-serif;
+
+  --fs-300: 0.75rem;
+  --fs-400: 1rem;
+  --fs-500: 2rem;
 
   --fw-400: 400;
   --fw-700: 700;
@@ -18,27 +24,6 @@
   --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
   --border-radius: 0.75rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* /////////////////
    Layout related
@@ -71,6 +56,7 @@
 @media (min-width: 500px) {
   .candidate {
     grid-template-columns: min-content minmax(15rem, 22.5rem);
+    grid-template-rows: min-content min-content 1fr auto;
     grid-template-areas:
       "img name"
       "img role"
