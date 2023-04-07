@@ -43,11 +43,26 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-.name {
-  font-family: var(--ff-accent);
-  color: var(--clr-base-500);
-  font-size: var(--fs-500);
+.candidate {
+  padding: 1em;
 }
+
+.candidate .name {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-500);
+  color: var(--clr-base-500);
+  line-height: 1;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+}
+
 
 .roles {
   font-size: var(--fs-300);
@@ -84,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (min-width: 500px) {
   .candidate {
     grid-template-columns: min-content minmax(15rem, 22.5rem);
-    grid-template-rows: min-content min-content 1fr auto;
+    /* grid-template-rows: min-content min-content 1fr auto; */
     grid-template-areas:
       "img name"
       "img role"
