@@ -25,6 +25,34 @@
   --border-radius: 0.75rem;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff-base);
+  line-height: 1.6;
+  font-size: var(--fs-400);
+  color: var(--clr-base-400);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.name {
+  font-family: var(--ff-accent);
+  color: var(--clr-base-500);
+  font-size: var(--fs-500);
+}
+
+.roles {
+  font-size: var(--fs-300);
+}
+
 /* /////////////////
    Layout related
    no need to touch any of this
