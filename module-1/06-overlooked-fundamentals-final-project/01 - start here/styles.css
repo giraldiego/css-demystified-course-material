@@ -39,6 +39,34 @@ body {
   color: var(--clr-base-400);
 }
 
+.tag {
+  display: inline-block;
+  margin-right: .5em;
+  padding: .15em .75em;
+  border-radius: 100vw;
+  
+  font-size: var(--fs-300);
+  font-weight: var(--fw-700);
+
+  background-color: var(--bg, lightgrey);
+  color: var(--fg, #333);
+}
+
+.ui {
+  --bg: var(--clr-ui-300);
+  --fg: var(--clr-ui-400);
+}
+
+.ux {
+  --bg: var(--clr-ux-300);
+  --fg: var(--clr-ux-400);
+}
+
+.dev {
+  --bg: var(--clr-dev-300);
+  --fg: var(--clr-dev-400);
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -61,11 +89,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 1rem;
   list-style: none;
-}
-
-
-.roles {
-  font-size: var(--fs-300);
 }
 
 /* /////////////////
